@@ -1,26 +1,46 @@
-🏥 Hospital Database – Java + MySQL
+# 🏥 Hospital Database – Java + MySQL
 
-Este projeto é um sistema simples de gerenciamento de pacientes em hospitais, desenvolvido em Java com conexão ao MySQL.
+Este projeto é um sistema simples de gerenciamento de pacientes em hospitais, desenvolvido em **Java** com conexão ao **MySQL**.
 
 Ele permite que profissionais de saúde:
+- Cadastrem pacientes com prioridade médica.
+- Listem pacientes ordenados por prioridade de atendimento.
 
-    Cadastrem pacientes com prioridade médica.
-    Listem pacientes ordenados por prioridade de atendimento.
+---
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
-hospital-database/ ├── src/ │ ├── dao/ # Conexão com banco de dados │ │ └── Conexao.java │ ├── controller/ # Lógica de negócio │ │ ├── CadastrarPaciente.java │ │ └── Lista_prioridade.java │ └── Main.java # Entrada do programa ├── sql/ │ └── banco.sql # Script de criação do banco e da tabela ├── .gitignore # Arquivos a serem ignorados no Git └── README.md # Este arquivo
-⚙️ Requisitos
+hospital-database/
+├── src/
+│ ├── dao/ # Conexão com banco de dados
+│ │ └── Conexao.java
+│ ├── controller/ # Lógica de negócio
+│ │ ├── CadastrarPaciente.java
+│ │ └── Lista_prioridade.java
+│ └── Main.java # Entrada do programa
+├── sql/
+│ └── banco.sql # Script de criação do banco e da tabela
+├── .gitignore # Arquivos a serem ignorados no Git
+└── README.md # Este arquivo
 
-    Java JDK 8+
-    MySQL
-    IDE como VS Code (opcional)
 
-🧪 Banco de Dados
-1. Crie o banco com o script:
+---
 
-Abra seu MySQL e execute o conteúdo do arquivo sql/banco.sql:
+## ⚙️ Requisitos
 
+- [Java JDK 8+](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [MySQL](https://dev.mysql.com/downloads/)
+- IDE como [VS Code](https://code.visualstudio.com/) (opcional)
+
+---
+
+## 🧪 Banco de Dados
+
+### 1. Crie o banco com o script:
+
+Abra seu MySQL e execute o conteúdo do arquivo `sql/banco.sql`:
+
+```sql
 CREATE DATABASE IF NOT EXISTS hospital;
 USE hospital;
 
