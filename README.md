@@ -1,6 +1,8 @@
 # 🏥 Hospital Database – Java + MySQL
 
-Desenvolvido por: João Gabriel Pereira de Araujo, julyane Ataides, Guilherme Pereira
+# Desenvolvido por: João Gabriel Pereira de Araujo, julyane Ataides, Guilherme Pereira
+
+
 
 Este projeto é um sistema simples de gerenciamento de pacientes em hospitais, desenvolvido em **Java** com conexão ao **MySQL**.
 
